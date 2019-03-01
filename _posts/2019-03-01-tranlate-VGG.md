@@ -19,7 +19,7 @@ title: 针对大规模图像识别的特深的深度卷积神经网络
 化到其他数据集上，在其他数据集上取得了最先进的（state-of-the-art）结果。我们公开了两种性能最
 好的卷积神经网络模型去促进(关于深度可视表征（deep visual representations）在计算机视觉中的
 使用的)进一步研究。
-+ 介绍
++ 介绍  
 卷积神经网络近来在大规模图像和视频识别中取得了巨大的成功(Krizhevsky et al., 2012; Zeiler &
  Fergus, 2013; Sermanet et al., 2014; Simonyan & Zisserman, 2014)，使这个成功实现的是
  大规模公开的图像库，如ImageNet，和高性能的计算系统，如GPUs和大规模分布式集群。特别地，the ImageNet Large-ScaleVisual Recognition Challenge (ILSVRC)
