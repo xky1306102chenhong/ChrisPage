@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Motto
+title: 疑问
 ---
 
 {{ page.title }}
