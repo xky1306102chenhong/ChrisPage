@@ -12,5 +12,5 @@ title: 疑问
 还是就近的那个？  
 例如，smaller receptive window size and smaller stride of 
 the ﬁrst convolutional layer.  
-谭剑波老师认为，要看具体语境语义 而不是僵化划分。
-这是一个多枝叶共干问题，有时间要仔细分析。
+谭剑波老师认为，要看具体语境语义 而不是僵化划分。  
+这是一个多枝叶共干问题，有时间要仔细分析。  
