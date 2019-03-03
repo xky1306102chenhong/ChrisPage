@@ -10,7 +10,7 @@ title: 针对大规模图像识别的特深的深度卷积神经网络
 
 > 翻译自[VGG](https://arxiv.org/abs/1409.1556)
 
-+ 摘要  
++ 0.摘要  
 在本文的工作中，我们研究在大规模图像识别中卷积网络深度对识别准确度（accuracy）的影响。<font color="red">我们的
 主要贡献是一个全面的(对增加深度的网络)的评估，这种网络使用很小(3x3)的卷积过滤器，这种使用这种
 过滤器的网络显示，当网络深度深至16-19层时可以在现有(prior-art)配置上取得极大的提升。</font>这些发现是我
@@ -19,7 +19,7 @@ title: 针对大规模图像识别的特深的深度卷积神经网络
 化到其他数据集上，在其他数据集上取得了最先进的（state-of-the-art）结果。我们公开了两种性能最
 好的卷积神经网络模型去促进(关于深度可视表征（deep visual representations）在计算机视觉中的
 使用的)进一步研究。
-+ 介绍  
++ 1.介绍  
 卷积神经网络近来在大规模图像和视频识别中取得了巨大的成功(Krizhevsky et al., 2012; Zeiler &
 Fergus, 2013; Sermanet et al., 2014; Simonyan & Zisserman, 2014)，使这个成功实现的是
 大规模公开的图像库，如ImageNet，和高性能的计算系统，如GPUs和大规模分布式集群。特别地，the ImageNet Large-ScaleVisual Recognition Challenge (ILSVRC)
@@ -38,4 +38,11 @@ Fergus, 2013; Sermanet et al., 2014; Simonyan & Zisserman, 2014)，使这个成�
 我们的网络配置。在第三部分（Sect.3）陈述图像分类训练和评估的细节，然后四部分（Sect.4）
 在ILSVRC分类任务中比较网络配置。第五部分（Sect.5）总结全文。为了完整性，我们也在附录A中描述和评估
 我们ILSVRC-2014对象定位系统，在附录B中讨论深度特征到其他数据集的泛化。最后，在附录C中给出论文修改清单。</font>  
-+ 网络配置  
++ 2.网络配置  
+为了在公平的环境中（in a fair setting）来测量通过增加网络深度带来的提升，所有我们的卷积网络层配置
+都使用同样的原则设计，都受到 Ciresan et al. (2011); Krizhevsky et al. (2012)的影响。<font color="red">在本部分，
+我们首先描述一个我们的卷积网络配置的通用（generic）布局（Sect.2.1），然后说明（detail）评估中使用的
+具体配置（Sect.2.2）。在Sect.2.3，讨论我们的设计选择然后将我们的设计选择与现有技术进行比较。</font>  
++ 2.1 架构  
+<font color="red">在训练期间，输入到我们的卷积网络的是固定大小的224x224RGB图片。我们所做的唯一预处理
+是减去平均RGB值</font>
