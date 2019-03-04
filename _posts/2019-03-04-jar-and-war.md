@@ -12,4 +12,8 @@ title: Jar包和War包
 
 + Jar（Java Archive，Java归档）  
 1.jar包内部结构  
-![avatar](/images/posts/2019-03-04/jar.png)
+![avatar](/images/posts/2019-03-04/jar.png)  
+2.打包方式（jar命令、IDE、压缩工具）
++ War（Web Archive，Web归档）  
+![avatar](/images/posts/2019-03-04/war.png)  
+2.打包方式（jar命令、IDE、压缩工具）
