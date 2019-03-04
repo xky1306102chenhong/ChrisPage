@@ -8,7 +8,7 @@ title: Jar包和War包
 
 <p class="meta">{{ page.date | date_to_string }} - Changsha</p> 
 
->参考了https://www.cnblogs.com/kevin2chen/p/6539351.html
+> _参考了https://www.cnblogs.com/kevin2chen/p/6539351.html_
 
 + Jar（Java Archive，Java归档）  
 1.jar包内部结构

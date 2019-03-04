@@ -8,7 +8,7 @@ title: 针对大规模图像识别的特深的深度卷积神经网络
 
 <p class="meta">{{ page.date | date_to_string }} - Changsha</p>  
 
-> 翻译自[VGG](https://arxiv.org/abs/1409.1556)
+> _翻译自[VGG](https://arxiv.org/abs/1409.1556)_
 
 + 0.摘要  
 在本文的工作中，我们研究在大规模图像识别中卷积网络深度对识别准确度（accuracy）的影响。<font color="red">我们的
