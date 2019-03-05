@@ -72,12 +72,9 @@ ILSVRC分类，因此有1000个通道（一个通道一个类别）。最后一�
 更有分辨能力（more discriminative）。第二，我们减少了参数数量：假设三层3x3卷积层的输入和输出通道是C，那么它的
 有3x(3x3xCxC)=27C<sup>2</sup>个权重(没有计算偏置量)；但是，单个7x7的卷积层需要7<sup>2</sup>C<sup>2</sup>=49C<sup>2</sup>,
 换句话说，单层对比多了81%的参数。这个可以认为是在7x7的卷积核实施正则化，这个正则化要求单个7x7的卷积核通过3x3的卷积核来分解
-（其间注入非线性）。</font>
-
+（其间注入非线性）。</font>  
 Table 1：卷积网络配置（按列）。配置的深度从左边（A）增加到右边（E），增加更多的层（增加的层用粗体表示）。卷积层的参数被表示
-成“conv(卷积核大小)-(通道数)”。为了简洁，ReLU激活函数没有列出。
-
-![avatar](/images/posts/2019-03-05/vgg_config.png)
-
+成“conv(卷积核大小)-(通道数)”。为了简洁，ReLU激活函数没有列出。  
+![avatar](/images/posts/2019-03-05/vgg_config.png)  
 ![avatar](/images/posts/2019-02-21/VGG_Configuration.png)
 
