@@ -107,4 +107,4 @@ GoogLeNet(Szegedy等人, 2014)，ILSVRC-2014分类任务表现最佳（top-perfo
 为了获得固定大小224x224的网络输入图片，这些图片从重新缩放的训练图片中随机裁剪（每张图片每次SGD迭代裁剪一次）。为了进一步增广训练集，裁剪出
 来的图片要经随机水平移动（horizontal flipping）和随机RBG色移（RGB color shift）(Krizhevsky et al., 2012)。
 接下来解释训练图片的重新缩放。  
-**训练图片大小** 
+**训练图片大小** 令S为一各向同性重新缩放（isotropically-rescaled）的训练图片的最小边，
