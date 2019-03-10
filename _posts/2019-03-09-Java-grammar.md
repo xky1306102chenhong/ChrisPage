@@ -17,14 +17,14 @@ title: Java语法
 3. /**
     *文档注释
     */
- ```
- + 标识符规则  
- ```
- 1. 可由字母、数字，下划线，美元符组成，但不能以数字开头。
- 2. 不能是Java关键字、保留字和三个特殊直接量
- ```
- + Java关键字  
- Java关键字都是小写的，有50个(两个为使用但关键字goto和const也称为保留字)  
+```
++ 标识符规则  
+```
+1. 可由字母、数字，下划线，美元符组成，但不能以数字开头。
+2. 不能是Java关键字、保留字和三个特殊直接量
+```
++ Java关键字  
+Java关键字都是小写的，有50个(两个为使用但关键字goto和const也称为保留字)  
 ![avatar](/images/posts/2019-03-09/JavaKeyword.png)  
 + 三个特殊直接量  
 `true, false, null`
@@ -54,11 +54,7 @@ System.out.println(s0 == s2);
 `1. 数组是一种引用数据类型`  
 `2. 没有多维数组`  
 `3. 工具类Arrays`  
-```java
-/**
- * @author Chris Chen
- * @date 2019/3/10 下午7:05
- */
+```java  
 public class Test {
     public static void main(String[] args) {
         int[][] a;
