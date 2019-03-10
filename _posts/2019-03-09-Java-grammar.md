@@ -54,7 +54,7 @@ System.out.println(s0 == s2);
 `1. 数组是一种引用数据类型`  
 `2. 没有多维数组`  
 `3. 工具类Arrays`  
-```java  
+```java
 public class Test {
     public static void main(String[] args) {
         int[][] a;
@@ -69,7 +69,6 @@ public class Test {
         System.out.println(a[1].length);
     }
 }
-
-```    
+```   
 + 引用数据类型  
 `堆内存、栈内存和垃圾回收机制`  
