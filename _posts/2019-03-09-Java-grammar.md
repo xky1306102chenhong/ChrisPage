@@ -38,7 +38,7 @@ title: Java语法
 ```java
 String s0 = "Hello";
 String s1 = "Hello";
-String s2 = "Hel"+"lo"
+String s2 = "Hel"+"lo";
 System.out.println(s0 == s1);
 System.out.println(s0 == s2);
 // 输出：
@@ -52,8 +52,8 @@ System.out.println(s0 == s2);
 + 循环控制(break, continue, return)
 + 数组  
 `1. 数组是一种引用数据类型`  
-`2. 没有多维数组`
-`3. 工具类Arrays`
+`2. 没有多维数组`  
+`3. 工具类Arrays`  
 ```java
 /**
  * @author Chris Chen
@@ -74,6 +74,6 @@ public class Test {
     }
 }
 
-```  
+```    
 + 引用数据类型  
 `堆内存、栈内存和垃圾回收机制`  
