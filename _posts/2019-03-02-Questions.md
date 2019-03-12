@@ -18,3 +18,4 @@ the ﬁrst convolutional layer.
 + 反向传播
 + 三次握手四次挥手
 + 线性与非线性
++ [Linus Torvalds硕士论文](https://www.cs.helsinki.fi/u/kutvonen/index_files/linus.pdf)
