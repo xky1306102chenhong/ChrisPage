@@ -155,4 +155,6 @@ S=384。若由一个卷积网络配置，我们先用S=256训练。为了加速S
 某些实验也在测试集上进行并且以"VGG"的队名提交到官方ILSVRC服务器以参加ILSVRC-2014竞赛(Russakovsky et al., 2014)。  
 + 单尺度评估  
 我们以评估在Sect. 2.2描述的配置的单尺度的单个卷积网络的性能为开始。测试图片的大小按如下设置：当S不变时，令Q=S，
-当$ S \in [S_{min}, S_{max}] $
+当$ S \in [S_{min}, S_{max}] $时，令$ Q=0.5(S_{min} + S_{max})$。
+结果如表3所示。  
+![avatar](/images/posts/2019-03-05/vgg_single_test_result.png)  
