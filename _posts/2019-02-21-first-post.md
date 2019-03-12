@@ -10,6 +10,7 @@ title: Motto
 
 + "Ever tried. Ever failed. No matter. Try again. Fail again. Fail better." -- [Samuel Beckett](https://en.wikiquote.org/wiki/Samuel_Beckett)  
 + I just enjoy making something interesting with code(代码，准则).
++ Normally today is based on yesterday.
 + 为者常成，行者常至。  
 + 人之谤我，与其能辩，不如能容；人之侮我，与其能防，不如能化。  
 + 花繁柳密处，拨得开，才是手段；风狂雨急时，立得定，方见脚跟。
