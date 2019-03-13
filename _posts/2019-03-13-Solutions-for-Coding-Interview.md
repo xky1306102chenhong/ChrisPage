@@ -47,4 +47,34 @@ public class FindTargetInTwoDimensionArray {
         }
     }
 }
+```  
++ 第二题  
+**题目描述**   请实现一个函数，将一个字符串中的每个空格替换成“%20”。例如，当字符串为
+We Are Happy.则经过替换之后的字符串为We%20Are%20Happy。  
+**代码**  
+```java
+import java.util.Scanner;
+public class ReplaceSpace {
+    public static String replaceSpace(StringBuffer str){
+        String newStr = "";
+        for (int i=0; i<str.length();i++){
+            if(str.charAt(i) == ' '){
+                newStr += "%20";
+            } else {
+                newStr += str.charAt(i);
+            }
+        }
+        return newStr;
+    }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        while (sc.hasNext()){
+            String str = sc.nextLine();
+            StringBuffer stringBuffer = new StringBuffer(str);
+            String newStr = replaceSpace(stringBuffer);
+            System.out.println(newStr);
+        }
+    }
+}
+
 ```
