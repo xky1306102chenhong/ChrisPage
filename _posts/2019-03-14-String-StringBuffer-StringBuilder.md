@@ -14,7 +14,7 @@ title: String、StringBuffer和StringBuilder辨析
   + 可变对象
   + 线程安全
   + 多数情况下，速度上StringBuffer快于String  
-  ```java
+```java
   //String的速度快于StringBuffer
   String S = "Hello" + "Worl" + "d!";
   StringBuffer = new StringBuilder("Hello").append("worl").append("d!");
@@ -25,7 +25,7 @@ title: String、StringBuffer和StringBuilder辨析
   String S3 = "d!";
   String S = S1 + S2 + S3;
   StringBuffer = new StringBuilder("Hello").append("worl").append("d!");
-  ```
+```
 + StringBuilder
   + 可变对象
   + 非线程安全
