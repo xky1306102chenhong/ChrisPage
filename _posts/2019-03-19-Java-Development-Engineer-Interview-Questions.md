@@ -17,3 +17,4 @@ title: Java开发工程师面试题集
 + 如何找数组内第二大元素
 + 两个非空链表相加
 + 剑指Offer
++ String和StringBuffer的区别
