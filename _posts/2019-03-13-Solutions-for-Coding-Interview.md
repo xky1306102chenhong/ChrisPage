@@ -14,10 +14,6 @@ title: 剑指 offer 题解
 **代码**  
 ```java
 import java.util.Scanner;
-/**
- * @author Chris Chen
- * @date 2019/3/13 下午10:04
- */
 public class FindTargetInTwoDimensionArray {
     public static boolean Find(int target, int[][] array){
         boolean flag = false;
