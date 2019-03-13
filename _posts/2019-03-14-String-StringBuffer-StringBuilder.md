@@ -13,7 +13,7 @@ title: String、StringBuffer和StringBuilder辨析
 + StringBuffer
   + 可变对象
   + 线程安全
-  + 多数情况下，速度上StringBuffer快于String
+  + 多数情况下，速度上StringBuffer快于String  
   ```java
   //String的速度快于StringBuffer
   String S = "Hello" + "Worl" + "d!";
