@@ -17,7 +17,6 @@ title: String、StringBuffer和StringBuilder辨析
   //String的速度快于StringBuffer
   String S = "Hello" + "Worl" + "d!";
   StringBuffer = new StringBuilder("Hello").append("worl").append("d!");
-  
   //StringBuffer的速度快于String
   String S1 = "Hello";
   String S2 = "Worl";
