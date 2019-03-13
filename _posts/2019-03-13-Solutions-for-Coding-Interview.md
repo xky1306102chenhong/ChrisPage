@@ -14,7 +14,6 @@ title: 剑指 offer 题解
 **代码**  
 ```java
 import java.util.Scanner;
-
 /**
  * @author Chris Chen
  * @date 2019/3/13 下午10:04
@@ -35,7 +34,6 @@ public class FindTargetInTwoDimensionArray {
         }
         return flag;
     }
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         while (sc.hasNext()){
@@ -53,5 +51,4 @@ public class FindTargetInTwoDimensionArray {
         }
     }
 }
-
 ```
