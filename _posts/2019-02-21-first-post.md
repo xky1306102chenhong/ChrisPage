@@ -13,10 +13,5 @@ title: Motto
 + I just enjoy making something interesting with code(代码，准则).
 + Normally today is based on yesterday, i.e. repeat is essentially important for the study.
 + ![dijkstra](/images/posts/2019-03-13/dijkstra.jpg)
-+ 为者常成，行者常至。  
-+ 人之谤我，与其能辩，不如能容；人之侮我，与其能防，不如能化。  
-+ 花繁柳密处，拨得开，才是手段；风狂雨急时，立得定，方见脚跟。
-+ 少年人要心忙，忙则摄浮气；老年人要心闲，闲则乐余年。
-+ 善哉，善哉！那红尘中却有些乐事，但不能永远依恃；况又有‘美中不足，好事多磨’八字紧相连属，瞬息间则又乐极悲生
-，人非物换，究竟是到头一梦，万境归空，倒不如不去的好。摘自《红楼梦》
 + 不用去远方追求远方，不要在现在奢求未来，不要以完美追求完成，不要以痛苦追求快乐。
++ 时间、精力是有限的，如果兴趣太过广泛，必定伤害最喜欢的爱好，换句话说，最喜欢的已经不再是最喜欢的。所以放弃是一种美德，也就是要Do 100% or don’t do it
