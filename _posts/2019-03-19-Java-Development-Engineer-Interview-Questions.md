@@ -50,6 +50,9 @@ title: Java开发工程师面试题集
     + spring-cloud：支持与许多云服务接口的整合
     + spring-security：认证和权限管理
     + ...
+    
+   spring中其实大量使用或者实现了JavaEE标准。比如spring-mvc是在servlet基础之上的封装。spring本身并不提供容器，而是支持使用任何支持servlet标准的容器（如tomcat，jetty等）。spring-data也实现了JPA，通过标准接口对进行CRUD等。
+   归根到底Spring只是想更好的解决实际问题。JavaEE的实现做得好的就用，做得不好的用比较恰当的方式独立实现或者封装。俗称“接地气”。  
 + TCP(三次握手四次挥手，与UDP的区别，流量控制原理)
 + 排序算法
 + 5亿的数据如何排序
