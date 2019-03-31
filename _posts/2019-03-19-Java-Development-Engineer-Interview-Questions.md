@@ -56,7 +56,10 @@ title: Java开发工程师面试题集
    spring中其实大量使用或者实现了JavaEE标准。比如spring-mvc是在servlet基础之上的封装。spring本身并不提供容器，而是支持使用任何支持servlet标准的容器（如tomcat，jetty等）。spring-data也实现了JPA，通过标准接口对进行CRUD等。
    归根到底Spring只是想更好的解决实际问题。JavaEE的实现做得好的就用，做得不好的用比较恰当的方式独立实现或者封装。俗称“接地气”。  
 + **说说JDK、JRE和JVM的区别？**
-  + 首先，JDK指定是Java SE开发工具包，它有Oracle JDK、OpenJDK和AJDK等不同的实现。
+  + 首先，JDK指定是Java SE开发工具包，是使用Java编程语言构建应用和组件的开发环境，它有Oracle JDK、OpenJDK和AJDK等不同的实现，它包括了Java运行环境JRE（Java Runtime Envirnment）、一堆Java工具（javac/java/jdb等）和Java基础的类库（即Java API 包括>rt.jar）。
+  + JRE(Java Runtime Environment)是指Java运行时环境，它包含JVM，运行时类库(runtime class libraries)和Java application launcher等，
+  是运行Java程序的必要环境。
+  + JVM是指Java虚拟机，它是实现跨平台的最核心的部分，所有的java程序会首先被编译为.class的类文件，这种类文件可以在虚拟机上执行。
 
 -------------------------------------------------------------------------------
 ### Spring ###
