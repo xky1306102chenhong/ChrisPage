@@ -10,10 +10,9 @@ title: Java开发工程师面试题集
 
 + 自我介绍
 + 介绍一下™、®、©三个标识的含义？
-  + ™(Trademark)：商标，但没有法律含义和法律效力。
+  + *™(Trademark)：商标，但没有法律含义和法律效力。*
   + ®：指的是注册商标，表示商标已经注册成功。
   + ©：表示受版权保护的标识。
-
 + JCP(Java Community Process):是一个由Oracle(以前是Sun)领导的机构(mechanism)，负责管理Java和接受JSRs(Java Specification Requests，Java规范请求)。
   + 
 + 说说Java SE、Java EE、J2EE和Java ME的关系？
