@@ -40,6 +40,8 @@ title: Java开发工程师面试题集
     + EJB：定义了如何编写”企业级Java Bean“
     + Java Server Faces：定义了如何使编写Web界面
     + ...
+    
+    <span style="border-bottom:2px solid red;">JDBC不是Java EE标准，因为只需按照JDK就可以引包。</span>
   + 在使用实现Java EE的API太难用了，在2002~2004年间，Rod Johnson总结了一套框架叫Spring，该框架是轻量级的，其中最重要的是IoC(控制反转)。
   经过多年发展，Spring发布了很多组件：
     + spring-core：Spring的Bean的管理，控制反转和程序上下文
