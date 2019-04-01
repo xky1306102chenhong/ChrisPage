@@ -124,4 +124,5 @@ title: 并行化卷积神经网络的一种奇妙技巧
 <span style="border-bottom:2px solid red;">这个损失函数(CROSS-ENTROPY)性能和多项逻辑回归一样，但是它更容易并行，因为它不需要一个跨类别的正则化。</span>
 我训练所有模型90轮，并且在训练进程到25%，50%和75%的时候将学习率乘以250<sup>-1/3</sup>。  
 我们使用的权重更新规则是：  
-$$ \Delta w : \eqcirc \mu w $$
+$$ \Delta w : \eqcirc \mu w + \epsilon ()$$  
+其中，$ \mu $是动量系数，$ \omega $是权重衰减(weight decay)系数，
