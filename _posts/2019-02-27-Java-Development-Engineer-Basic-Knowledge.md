@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java开发工程师面试题集
+title: Java开发工程师的基本素养
 ---
 
 {{ page.title }}
