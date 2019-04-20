@@ -81,4 +81,4 @@ title: Java开发工程师的基本素养
 ### 算法 ###
 + 动态规划
   + [最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/)  
-  ![]
+  ![avatar](/images/posts/2019-03-14/minimum-path-sum.jpeg)
