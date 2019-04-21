@@ -84,12 +84,11 @@ title: Java开发工程师的基本素养
     + 思路：  
     ![avatar](/images/posts/2019-03-14/minimum-path-sum.jpeg)
     + 代码：  
-    ```
+    ```java
     import java.util.ArrayDeque;
     import java.util.Arrays;
     import java.util.Scanner;
-    public class MinPathSum {
-    
+    public class MinPathSum {    
         public static int getMin(int a, int b){
             return a<b?a:b;
         }
@@ -100,23 +99,18 @@ title: Java开发工程师的基本素养
             class Point{
                 int x;
                 int y;
-    
                 public Point(int x, int y) {
                     this.x = x;
                     this.y = y;
                 }
-    
                 public void setX(int x) {
                     this.x = x;
                 }
-    
                 public void setY(int y) {
                     this.y = y;
                 }
-            }
-    
-            int[][] dir = {{-1, 0}, {0, -1}};
-    
+            }  
+            int[][] dir = {{-1, 0}, {0, -1}};   
             int[][] f= new int[m+5][n+5];
             for(int i=0;i<m+5;i++){
                 Arrays.fill(f[i],9999999);
